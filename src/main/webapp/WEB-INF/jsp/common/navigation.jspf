@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <a class="navbar-brand" href="http://localhost:8080/" >Eloy</a>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+    <ul class="navbar-nav mr-auto">
+      <li> <a type="button" class="btn btn-dark" class="nav-item nav-link" href="/">Home</a> </li>
+      <li> <a type="button" class="btn btn-dark" class="nav-item nav-link" href="/lista-coordenadas">Coordenadas</a></li>
+      <li class="nav-item dropdown">
+        <a type="button" class="btn btn-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Situação Rotas/Paradas
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/lista-route-plan">Rotas</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/planned-stops">Paradas</a>
+        </div>
+      </li>
+      </ul>
+      
+      <ul class="navbar-nav mr-auto">
+	  <li> <a type="button" class="btn btn-dark" class="nav-item nav-link"  href="/logout">Logout</a></li>
+	  </ul>
+    </div>
+  </div>
+</nav>
